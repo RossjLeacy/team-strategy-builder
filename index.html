@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team Strategy Builder</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>🚀 Team Strategy Builder: Mars Mission</h1>
+    <div id="role-selection">
+        <h2>Select Your Role:</h2>
+        <button onclick="selectRole('Engineer')">Engineer</button>
+        <button onclick="selectRole('Biologist')">Biologist</button>
+        <button onclick="selectRole('Communicator')">Communicator</button>
+        <button onclick="selectRole('Navigator')">Navigator</button>
+    </div>
+    <div id="dashboard" style="display:none;">
+        <h2>Your Role: <span id="role-title"></span></h2>
+        <div id="role-content"></div>
+        <button onclick="nextRound()">Next Round</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
